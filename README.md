@@ -11,3 +11,11 @@ Template to be used for Hexagonal Architecture projects in python
 - The "application" folder contains a service layer around the domain
     - The "ModelService" implements the incoming port interface and uses the outgoing port interfaces
 - The adapter packages contains incoming and outgoing adapters that call the application layers's incoming and outpoing ports.
+
+## Explanation of Various Componenets
+### Port
+- An interface that will be implemented by the adapter. The application layer calls the port interface to call the functionality of the adapter
+
+### Adapter
+
+### Service

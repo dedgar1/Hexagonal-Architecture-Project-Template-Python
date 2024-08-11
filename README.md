@@ -15,6 +15,14 @@ Template to be used for Hexagonal Architecture projects in python
 ## Explanation of Various Componenets
 ### Port
 - An interface that will be implemented by the adapter. The application layer calls the port interface to call the functionality of the adapter
+    - ### Use Case
+    - The perform the following
+        1. Take input
+        2. Validate business rules
+        3. Manipulate model state: e.g change state and pass it to a port implemented by an adapter
+        4. Return output: Translate return value from the outpgoing adapter into an output object that will be returned to the callign adapter
+
+    - 
 
 ### Adapter
 
